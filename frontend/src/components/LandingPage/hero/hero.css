@@ -1,0 +1,177 @@
+/* HeroSection.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+     /* To account for the navbar */
+  }
+  
+  .combined {
+      position: relative;
+      top: 0px;
+      left: 0;
+      width: 100%;
+      height: 190vh;
+      background: url('/banner_img_2.png') center center/cover no-repeat;
+      z-index: 3;
+    }
+  
+  .hero-gradient {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(135deg, rgba(108, 99, 255, 0.7) 0%, rgba(72, 52, 212, 0.7) 100%); */
+    z-index: -1;
+  }
+  
+  .hero-content {
+    max-width: 1200px;
+    text-align: center;
+    padding: black;
+    z-index: 1;
+  }
+  @font-face {
+    font-family: 'Ramona';
+    src: url('/Ramona-Normal.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .hero-content h1 {
+    
+    font-size: 5.8rem;
+    font-weight: 400;
+    margin-bottom: 1.3rem;
+    line-height: 0.9;
+    letter-spacing: 3.2px;
+    font-family: 'Ramona', serif;
+
+  }
+  
+  .hero-content p {
+    margin-top: -8px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    margin-right:-100px;
+    
+
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.3rem;
+    padding:10px 20px;
+  }
+  
+  .primary-button, .secondary-button {
+    padding: 1.2rem 3rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+    color: #6c63ff;
+  }
+  
+  .primary-button {
+    background: white;
+    
+  }
+  
+  .primary-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+  }
+  
+  .secondary-button {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .secondary-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px);
+  }
+  
+
+   
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2.5rem;
+    }
+    
+    .hero-content p {
+      font-size: 1rem;
+    }
+    
+    .hero-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .primary-button, .secondary-button {
+      width: 100%;
+      max-width: 250px;
+      text-align: center;
+    }
+  }
+  .floating-section {
+    overflow: hidden;
+    width:calc(100%+120px);
+    /* background-color: #fff; */
+    padding: 100px 100px;
+    /* border-top: 2px solid #66CDAA;
+    border-bottom: 2px solid #66CDAA; */
+    position: relative;
+    z-index: 10;
+  }
+  
+  .image-scroll {
+    display: flex;
+    width: max-content;
+    animation: scrollImages 25s linear infinite;
+    align-items: center;
+  }
+  
+  .image-scroll img {
+    height: 800px;
+    width: auto;
+    margin: 0 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-scroll img:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes scrollImages {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  .scroll-hover-section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+  }
+ 
+  
+ 

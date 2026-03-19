@@ -1,0 +1,73 @@
+.subscribe-section {
+    height: 90vh;
+    margin-top:-55px ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .subscribe-content {
+    padding: 4.8rem;
+    font-family: 'RomanBT',sans-serif;
+    letter-spacing: 1.5px;
+    border-radius: 20px;
+    max-width: 700px;
+    padding:0px 30px;
+    width: 100%;
+  }
+  
+  .subscribe-content h1 {
+    font-size: 3.8rem;
+    padding: 0 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .subscribe-content span {
+    font-weight: bold;
+  }
+  
+  .subscribe-content p {
+    color: #333;
+    font-family: 'RomanBt',sans-serif;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+  }
+  
+  .subscribe-input {
+    display: flex;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .subscribe-input input {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    flex: 1;
+  }
+  
+  .subscribe-input button {
+    padding: 1rem 2rem;
+    background: #b388f4;
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-left: 2px solid black;
+    transition: background 0.3s ease;
+  }
+  
+  .subscribe-input button:hover {
+    background: #a06be3;
+  }
+  

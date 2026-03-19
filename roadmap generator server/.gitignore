@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Flask instance folder
+instance/
+*.db
+*.sqlite3
+
+# Flask cache and session files
+*.log
+*.pid
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.*
+
+# Pytest / Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Machine learning models and artifacts
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.sav
+*.model
+*.onnx
+
+# Jupyter Notebooks and checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Docker / Build / Distribution files (if applicable)
+*.egg-info/
+dist/
+build/
+*.spec
+*.bak
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak

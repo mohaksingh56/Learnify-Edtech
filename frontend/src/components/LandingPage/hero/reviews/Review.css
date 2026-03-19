@@ -1,0 +1,89 @@
+.revslider-container {
+    height: 100vh;
+    padding: 6rem 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    background: #ffffff;
+    color: #111;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .revslider-quote-icon {
+    font-size: 18rem;
+    color: #a67df3;
+    line-height: 1;
+    margin-bottom: 0rem;
+  }
+  
+  .revslider-quote-text {
+    font-size: 2.8rem;
+    max-width: 1000px;
+    margin-top:-20px;
+    margin: 0 0 2.3rem;
+    line-height: 1.6;
+  }
+  
+  .revslider-user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+  }
+  
+  .revslider-img-holder {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .revslider-img-holder img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .revslider-user-name {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .revslider-user-location {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 2px;
+  }
+  
+  .revslider-controls {
+    position: absolute;
+    bottom: 7rem; /* put back at bottom */
+    right: 10rem;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .revslider-controls button {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .revslider-controls button:hover {
+    background: #f0f0f0;
+    transform: scale(1.1);
+  }
+  

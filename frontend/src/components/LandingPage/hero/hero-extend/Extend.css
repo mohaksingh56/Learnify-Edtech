@@ -1,0 +1,110 @@
+.growth-section {
+    position: relative;
+    margin-top:-90px;
+    overflow: hidden;
+    padding: 15rem 15rem;
+    color: #111;
+    font-family: serif;
+    line-height: 1;
+  
+    /* Replace this with the path to your PNG */
+    background-image: url('/hero_2.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover; /* or contain, depending on your design */
+  }
+  
+  /* Remove the .curve-bg rules entirely since we're using CSS bg */
+  .curve-bg {
+    display: none;
+  }
+  
+  /* Content wrapper */
+  .content {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(30px);
+    margin-right:-70px;
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    z-index: 2;
+  }
+  
+  .content.reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+  .line {
+    font-size: 46px;
+    padding-top:26px;
+    font-family: "RomanBT", sans-serif;
+    margin-bottom: 0.5rem;
+    line-height: 25px;
+    font-weight: 450;
+    letter-spacing: -2px;
+  }
+  
+  .highlighted {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 600;
+    border: 2px solid #0e0f18;
+    border-radius: 999px;
+    padding: 1.4rem 3rem;
+    margin-top: 1rem;
+  }
+  
+  .star {
+    color: #111;
+    margin: 0 0.25rem;
+  }
+  
+  .circle-button {
+    position: absolute;
+    bottom: 14rem;
+    right: 12rem;
+    width: 150px; /* ⬆️ Increased size */
+    height: 150px;
+    border: 2px solid #111;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem; /* ⬆️ Larger font */
+    z-index: 2;
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    animation: popIn 1s ease-out;
+  }
+  
+  /* 🔁 Keyframe animation */
+  @keyframes popIn {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* 🔄 Optional Hover Effect */
+  .circle-button:hover {
+    background-color: #111;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  
+  .circle-button:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
