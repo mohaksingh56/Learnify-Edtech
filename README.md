@@ -13,10 +13,12 @@
 - **💬 Chatbot Assistance**: Seamless on-the-go Q&A via integrated chatbot.
 
 ## 📸 Screenshots
-*(I have linked some of the assets from the project below. You can update these links if you have specific screenshots you want to highlight!)*
 
-![Hero Banner](./frontend/public/banner_img.png)
-![Community & FAQs](./frontend/public/community.jpg)
+![Screenshot 1](./screenshot_1.png)
+![Screenshot 2](./screenshot_2.png)
+![Screenshot 3](./screenshot_3.png)
+![Screenshot 4](./screenshot_4.png)
+![Screenshot 5](./screenshot_5.png)
 
 ## 💻 Tech Stack
 **Frontend:**
