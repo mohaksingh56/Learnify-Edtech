@@ -304,7 +304,7 @@ const Dashboard = () => {
                   <span className="text-xs">👤</span>
                 </div>
                 <div>
-                  <div className="font-medium">Nikhil</div>
+                  <div className="font-medium">Mohak</div>
                   <div className="text-xs text-gray-500">+5 hours</div>
                 </div>
               </div>
@@ -340,7 +340,7 @@ const Dashboard = () => {
                   <span className="text-xs">👤</span>
                 </div>
                 <div>
-                  <div className="font-medium">Nikhil</div>
+                  <div className="font-medium">Mohak</div>
                   <div className="text-xs text-gray-500">+8 hours</div>
                 </div>
               </div>

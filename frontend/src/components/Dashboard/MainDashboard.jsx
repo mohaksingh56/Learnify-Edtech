@@ -18,7 +18,7 @@ const MainDashboard = () => {
       <div className="p-6 max-w-6xl mx-auto">
         {/* Header with user info */}
         <div className="flex justify-between items-center">
-          <h1 className="font-bold text-2xl text-gray-900">Welcome Nikhil</h1>
+          <h1 className="font-bold text-2xl text-gray-900">Welcome Mohak</h1>
           <div className="flex items-center space-x-4">
             <div className="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
               <span className="text-gray-600">👤</span>
